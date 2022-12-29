@@ -1,69 +1,45 @@
-.flex-item-right img{
-    height: 700px;
-    width: 650px;
+body{
+  background-color: aliceblue;
+}
+div {
+  margin: 10px;
+}
+.button button{
+  background-color: yellow;
+  border-radius: 25px;
+  padding: 10px;
 }
 
+.first {
+  width: 40%;
+  display: inline-block;
+  /* background-color: green; */
+}
 
+.second {
+  width: 40%;
+  display: inline-block;
+  /* background-color: blue; */
+}
 
+@media screen and (max-width: 850px) {
 
-* {
-    box-sizing: border-box;
-  }
-  
-  .flex-container {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    text-align: center;
-  }
-  
-  .flex-item-left {
-  
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  .flex-item-right {
-  
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media (max-width: 800px) {
-    .flex-container {
-      flex-direction: column;
-    }
-    /* second css */
-  }
+  .first,
   .second{
-    margin-top: 15px;
-    flex-basis: 100%;
+      width: 80%;
   }
+}
 
+@media screen and (max-width: 435px) {
 
-  .flex-container-second {
-    display: flex;
-    flex-direction: row;
-    font-size: 30px;
-    text-align: center;
+  .second img{
+      width: 200px;height: 125px;
   }
-  
-  .flex-item-left-second {
-  
-    padding: 10px;
-    flex: 50%;
+}
+
+@media screen and (max-width: 435px) {
+
+  .image-last{
+      width: 200px;height: 125px;
   }
-  
-  .flex-item-right-second {
-  
-    padding: 10px;
-    flex: 50%;
-  }
-  
-  /* Responsive layout - makes a one column-layout instead of two-column layout */
-  @media(max-width: 800px) {
-    .flex-container-second {
-      flex-direction: column;
-    }
 }
