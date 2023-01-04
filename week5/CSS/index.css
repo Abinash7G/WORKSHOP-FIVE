@@ -39,7 +39,7 @@ div {
 
 @media screen and (max-width: 435px) {
 
-  .image-last{
+  .first image-last{
       width: 200px;height: 125px;
   }
 }

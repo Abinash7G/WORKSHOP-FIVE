@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0%;
+    background-color:gray;
+}
+.main img{
+    height:600px;
+    padding-top: 5%;
+
+}
+.main h1{ 
+    font-size: 58px;
+    color:#FFB67A;
+    padding-top: 46%;
+
+}
+.main h3{
+    
+    color: aqua;
+    padding: top 50%;
+    font-size: 200%;
+    font-weight: inherit;
+}
+
+.main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;}
+button{
+    border-radius: 30px;
+    background-color: cyan;
+    color:blueviolet;
+    font-weight: bolder;
+    font-size: 150%;
+    padding: 7%;
+    margin-left: 0%;
+    margin-top:25% ;
+}
+
+@media(max-width: 720px) {
+    .main{
+        width: 250px;
+
+    }
+    
+    }
+  
